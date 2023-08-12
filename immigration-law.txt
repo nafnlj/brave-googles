@@ -4,18 +4,17 @@
 ! author: Nicholas A. Ferrell
 ! license: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
-! USCIS
+! U.S. government resources
+
 $boost=3,site=uscis.gov
 /policy-manual/$boost=4
 /sites/default/files/document/policy-manual-afm/$boost=4
 
-! EOIR
 /eoir/$boost=3,site=justice.gov
 /page/file/$boost=4
 /sites/default/files/eoir/legacy/$boost=3
 /sites/default/files/pages/attachments/$boost=3
 
-! DOS
 $boost=1,site=state.gov
 /FAM/09FAM/$boost=4
 /FAM/08FAM/$boost=3
@@ -23,61 +22,61 @@ $boost=1,site=state.gov
 /visas/$boost=2
 /content/travel/$boost=2
 /countries-areas/$boost=2
+
 $boost=2,site=usembassy.gov
 
-! DHS Components
-$boost=2,ice.gov
-$boost=2,cbp.gov
+$boost=2,site=ice.gov
+
+$boost=2,site=cbp.gov
+
+$boost=1,site=oalj.dol.gov
+/DECISIONS/ALJ/LCA/$boost=4
+
 $boost=1,site=dhs.gov
 
-! DOL
-$boost=1,oalj.dol.gov
-/DECISIONS/ALJ/LCA/$boost=4,oalj.dol.gov
+$boost=1,site=ecfr.gov
+/current/title-8/$boost=4
+/current/title-22/$boost=3
 
-! eCFR
-/current/title-8/$boost=4,ecfr.gov
-/current/title-22/$boost=3,ecfr.gov
+$boost=2,site=uscode.house.gov
+/view.xhtml?req=granuleid:USC-prelim-title8.boost=4
+/view.xhtml?req=granuleid:USC-prelim-title22.boost=3
 
-! Official USC
-/view.xhtml?req=granuleid:USC-prelim-title8.boost=4,uscode.house.gov
-/view.xhtml?req=granuleid:USC-prelim-title22.boost=3,uscode.house.gov
-
-! State laws
 /legislation/laws/PEN,$boost=2,nysenate.gov
 
 
-! Cornell
-/cfr/text/8/$boost=4,law.cornell.edu
-/uscode/text/8/$boost=4,law.cornell.edu
-/cfr/text/22/$boost=3,law.cornell.edu
-/uscode/text/22/$boost=3,law.cornell.edu
-/cfr/text/20/$boost=2,law.cornell.edu
-/cfr/text/29/$boost=2,law.cornell.edu
-/uscode/text/18/$boost=2,law.cornell.edu
+! Other law sources
+$boost=1,site=law.cornell.edu
+/cfr/text/8/$boost=4
+/cfr/text/20/$boost=2
+/cfr/text/22/$boost=3
+/cfr/text/29/$boost=2
+/uscode/text/8/$boost=4
+/uscode/text/18/$boost=2
+/uscode/text/22/$boost=3
 
-! Case searching
-$boost=4,courtlistener.com
-$boost=3,findlaw.com
+$boost=4,site=courtlistener.com
+$boost=3,site=findlaw.com
 /scholar.$boost=3,google.com
 
 ! Useful sites and links
-$boost=3,aila.org
-$boost=3,cliniclegal.org
-$boost=3,myattorneyusa.com
-$boost=3,americanimmigrationcouncil.org
-$boost=3,cis.org
-$boost=2,washingtontimes.com
-$boost=2,scotusblog.com
-/border/$boost=1,breitbart.com
+$boost=3,site=aila.org
+$boost=3,site=cliniclegal.org
+$boost=3,site=myattorneyusa.com
+$boost=3,site=americanimmigrationcouncil.org
+$boost=3,site=cis.org
+$boost=2,site=washingtontimes.com
+$boost=2,site=scotusblog.com
+/border/$boost=1,site=breitbart.com
 
 ! Asylum and refugee resources
-$boost=2,amnesty.org
-$boost=2,freedomhouse.org
-$boost=2,hrw.org
-$boost=2,eurasianet.org
-$boost=2,ohchr.org
-$boost=1,apnews.com
-$boost=1,reuters.com
-$boost=1,nytimes.com
-$boost=1,washingtonpost.com
-/item/global-legal-monitor/$boost=1,loc.gov
+$boost=2,site=amnesty.org
+$boost=2,site=freedomhouse.org
+$boost=2,site=hrw.org
+$boost=2,site=eurasianet.org
+$boost=2,site=ohchr.org
+$boost=1,site=apnews.com
+$boost=1,site=reuters.com
+$boost=1,site=nytimes.com
+$boost=1,site=washingtonpost.com
+/item/global-legal-monitor/$boost=1,site=loc.gov
