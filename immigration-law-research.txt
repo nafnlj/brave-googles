@@ -6,23 +6,23 @@
 
 ! U.S. government resources
 $boost=3,site=uscis.gov
-/policy-manual/$boost=4
-/sites/default/files/document/policy-manual-afm/$boost=4
+/policy-manual/$boost=4,site=uscis.gov
+/sites/default/files/document/policy-manual-afm/$boost=4,site=uscis.gov
 
 ! EOIR
 /eoir/$boost=3,site=justice.gov
-/page/file/$boost=4
-/sites/default/files/eoir/legacy/$boost=3
-/sites/default/files/pages/attachments/$boost=3
+/page/file/$boost=4,site=justice.gov
+/sites/default/files/eoir/legacy/$boost=3,site=justice.gov
+/sites/default/files/pages/attachments/$boost=3,site=justice.gov
 
 ! DOS
 $boost=1,site=state.gov
-/FAM/09FAM/$boost=4
-/FAM/08FAM/$boost=3
-/reports/$boost=3
-/visas/$boost=2
-/content/travel/$boost=2
-/countries-areas/$boost=2
+/FAM/09FAM/$boost=4,site=state.gov
+/FAM/08FAM/$boost=3,site=state.gov
+/reports/$boost=3,site=state.gov
+/visas/$boost=2,site=state.gov
+/content/travel/$boost=2,site=state.gov
+/countries-areas/$boost=2,site=state.gov
 $boost=2,site=usembassy.gov
 
 ! DHS
@@ -31,31 +31,30 @@ $boost=2,site=cbp.gov
 $boost=1,site=dhs.gov
 
 ! BALCA
-$boost=1,site=oalj.dol.gov
-/DECISIONS/ALJ/LCA/$boost=4
+/DECISIONS/ALJ/LCA/$boost=4,site=oalj.dol.gov
 
 ! Official CFR
 $boost=1,site=ecfr.gov
-/current/title-8/$boost=4
-/current/title-22/$boost=3
+/current/title-8/$boost=4,site=ecfr.gov
+/current/title-22/$boost=3,site=ecfr.gov
 
 ! Official USC
 $boost=2,site=uscode.house.gov
-/view.xhtml?req=granuleid:USC-prelim-title8.boost=4
-/view.xhtml?req=granuleid:USC-prelim-title22.boost=3
+/view.xhtml?req=granuleid:USC-prelim-title8.boost=4,site=uscode.house.gov
+/view.xhtml?req=granuleid:USC-prelim-title22.boost=3,site=uscode.house.gov
 
 ! State laws
 /legislation/laws/PEN,$boost=2,site=nysenate.gov
 
 ! Other law sources
 $boost=1,site=law.cornell.edu
-/cfr/text/8/$boost=4
-/cfr/text/20/$boost=2
-/cfr/text/22/$boost=3
-/cfr/text/29/$boost=2
-/uscode/text/8/$boost=4
-/uscode/text/18/$boost=2
-/uscode/text/22/$boost=3
+/cfr/text/8/$boost=4,site=law.cornell.edu
+/cfr/text/20/$boost=2,site=law.cornell.edu
+/cfr/text/22/$boost=3,site=law.cornell.edu
+/cfr/text/29/$boost=2,site=law.cornell.edu
+/uscode/text/8/$boost=4,site=law.cornell.edu
+/uscode/text/18/$boost=2,site=law.cornell.edu
+/uscode/text/22/$boost=3,site=law.cornell.edu
 $boost=4,site=courtlistener.com
 $boost=3,site=findlaw.com
 
