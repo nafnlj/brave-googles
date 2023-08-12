@@ -54,7 +54,7 @@ $boost=1,site=law.cornell.edu
 
 $boost=4,site=courtlistener.com
 $boost=3,site=findlaw.com
-/scholar.$boost=3,google.com
+/scholar.$boost=3,site=google.com
 
 ! Useful sites and links
 $boost=3,site=aila.org
