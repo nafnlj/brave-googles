@@ -26,37 +26,34 @@ $boost=1,site=state.gov
 $boost=2,site=usembassy.gov
 
 ! DHS Components
-$boost=1,site=dhs.gov
 $boost=2,ice.gov
 $boost=2,cbp.gov
+$boost=1,site=dhs.gov
 
 ! DOL
 $boost=1,oalj.dol.gov
-/DECISIONS/ALJ/LCA/$boost=4
+/DECISIONS/ALJ/LCA/$boost=4,oalj.dol.gov
 
 ! eCFR
-$boost=1,ecfr.gov
-/current/title-8/$boost=4
-/current/title-22/$boost=3
+/current/title-8/$boost=4,ecfr.gov
+/current/title-22/$boost=3,ecfr.gov
 
 ! Official USC
-$boost=2,uscode.house.gov
-/view.xhtml?req=granuleid:USC-prelim-title8.boost=4
-/view.xhtml?req=granuleid:USC-prelim-title22.boost=3
+/view.xhtml?req=granuleid:USC-prelim-title8.boost=4,uscode.house.gov
+/view.xhtml?req=granuleid:USC-prelim-title22.boost=3,uscode.house.gov
 
 ! State laws
 /legislation/laws/PEN,$boost=2,nysenate.gov
 
 
 ! Cornell
-$boost=1,law.cornell.edu
-/cfr/text/8/$boost=4
-/cfr/text/20/$boost=2
-/cfr/text/22/$boost=3
-/cfr/text/29/$boost=2
-/uscode/text/8/$boost=4
-/uscode/text/18/$boost=2
-/uscode/text/22/$boost=3
+/cfr/text/8/$boost=4,law.cornell.edu
+/uscode/text/8/$boost=4,law.cornell.edu
+/cfr/text/22/$boost=3,law.cornell.edu
+/uscode/text/22/$boost=3,law.cornell.edu
+/cfr/text/20/$boost=2,law.cornell.edu
+/cfr/text/29/$boost=2,law.cornell.edu
+/uscode/text/18/$boost=2,law.cornell.edu
 
 ! Case searching
 $boost=4,courtlistener.com
