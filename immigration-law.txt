@@ -52,6 +52,7 @@ $boost=1,site=law.cornell.edu
 /uscode/text/18/$boost=2
 /uscode/text/22/$boost=3
 
+! Case search
 $boost=4,site=courtlistener.com
 $boost=3,site=findlaw.com
 
