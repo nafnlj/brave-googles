@@ -2,6 +2,7 @@
 ! description: Boost useful results for U.S. immigration law news and research
 ! public: true
 ! author: Nicholas A. Ferrell
+! homepage: https://thenewleafjournal.com/naferrell-links
 ! license: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
 ! U.S. government resources
@@ -79,3 +80,4 @@ $boost=1,site=reuters.com
 $boost=1,site=nytimes.com
 $boost=1,site=washingtonpost.com
 /item/global-legal-monitor/$boost=1,site=loc.gov
+$boost=1,site=thenewleafjournal.com
