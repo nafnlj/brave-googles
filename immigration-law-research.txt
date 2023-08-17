@@ -65,9 +65,15 @@ $boost=3,site=cliniclegal.org
 $boost=3,site=myattorneyusa.com
 $boost=3,site=americanimmigrationcouncil.org
 $boost=3,site=cis.org
+
+! News Resources
 $boost=2,site=washingtontimes.com
 $boost=2,site=scotusblog.com
 /border/$boost=1,site=breitbart.com
+$boost=1,site=apnews.com
+$boost=1,site=reuters.com
+$boost=1,site=nytimes.com
+$boost=1,site=washingtonpost.com
 
 ! Asylum and refugee resources
 $boost=2,site=amnesty.org
@@ -75,9 +81,6 @@ $boost=2,site=freedomhouse.org
 $boost=2,site=hrw.org
 $boost=2,site=eurasianet.org
 $boost=2,site=ohchr.org
-$boost=1,site=apnews.com
-$boost=1,site=reuters.com
-$boost=1,site=nytimes.com
-$boost=1,site=washingtonpost.com
+/en/$boost=1,site=sova-center.ru
 /item/global-legal-monitor/$boost=1,site=loc.gov
 $boost=1,site=thenewleafjournal.com
