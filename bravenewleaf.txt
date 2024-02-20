@@ -1,1 +1,10 @@
+! name: Brave New Leaf
+! description: Boost results connected to The New Leaf Journal (https://thenewleafjournal.com) and The Emu Café (https://social.emucafe.org) projects.
+! public: true
+! author: Nicholas A. Ferrell
+! homepage: https://thenewleafjournal.com/
+! license: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
+$boost=3,site=thenewleafjournal.com
+$boost=3,site=emucafe.org
+$boost=3,site=victorvgurbo.com
