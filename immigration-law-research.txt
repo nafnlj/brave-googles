@@ -9,7 +9,7 @@ $site=uscode.house.gov
 /title-18/$site=ecfr.gov
 /title-22/$site=ecfr.gov
 /title-29/$site=ecfr.gov
-/cfr/$=site=law.cornell.edu
+/cfr/$site=law.cornell.edu
 
 $site=uscis.gov
 $site=ice.gov
