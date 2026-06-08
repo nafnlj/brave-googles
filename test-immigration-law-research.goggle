@@ -5,27 +5,27 @@
 
 $discard
 
-$site=uscode.house.gov
-/uscode/$site=law.cornell.edu
-/title-8/$site=ecfr.gov
-/title-18/$site=ecfr.gov
-/title-22/$site=ecfr.gov
-/title-29/$site=ecfr.gov
-/cfr/$site=law.cornell.edu
+$boost=4,site=uscode.house.gov
+$boost=4,/uscode/$site=law.cornell.edu
+$boost=5,/title-8/$site=ecfr.gov
+$boost=1,/title-18/$site=ecfr.gov
+$boost=2,/title-22/$site=ecfr.gov
+$boost=1,/title-29/$site=ecfr.gov
+$boost=4,/cfr/$site=law.cornell.edu
 
-$site=uscis.gov
-$site=ice.gov
-$site=cbp.gov
+$boost=5,site=uscis.gov
+$boost=2,site=ice.gov
+$boost=2,site=cbp.gov
 
-/eoir/$site=justice.gov
+/eoir/^$boost=5,site=justice.gov
 
-/08FAM/$site=fam.state.gov
-/09FAM/$site=fam.state.gov
-$site=travel.state.gov
-/eta/$site=dol.gov
+/08FAM/^$boost=2,site=fam.state.gov
+/09FAM/^$boost=4,site=fam.state.gov
+$boost=1,site=travel.state.gov
+/eta/^boost=2,$site=dol.gov
 
-/opinion/$site=courtlistener.com
+/opinion/^$boost=5,site=courtlistener.com
 
-site=govinfo.gov
-/crs_external_products/$site=congress.gov
+$boost=4,site=govinfo.gov
+/crs_external_products/^$boost=2,site=congress.gov
 
