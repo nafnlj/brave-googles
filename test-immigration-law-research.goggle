@@ -29,5 +29,3 @@ $site=travel.state.gov
 site=govinfo.gov
 /crs_external_products/$site=congress.gov
 
-$discard
-$
