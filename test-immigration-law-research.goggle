@@ -3,6 +3,8 @@
 ! public: false
 ! author: Nicholas A. Ferrell
 
+$discard
+
 $site=uscode.house.gov
 /uscode/$site=law.cornell.edu
 /title-8/$site=ecfr.gov
@@ -26,3 +28,6 @@ $site=travel.state.gov
 
 site=govinfo.gov
 /crs_external_products/$site=congress.gov
+
+$discard
+$
